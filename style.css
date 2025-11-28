@@ -1,0 +1,124 @@
+body {  
+  font-family: 'Cinzel', serif;
+  background-color: #eea9e1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+  background-image: url("IMG_MNM.jpg");
+  background-size: cover;
+  background-position: center 35%;
+
+  padding-top: 80px;
+  padding-bottom: 150px;
+  color: white;
+
+  border-radius: 40px;
+  box-shadow: 15px 15px 20px rgba(0,0,0,0.4);
+
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 20px;
+}
+
+.image-header h1 {
+  margin: 0 0 10px 0;
+  font-size: 2em;
+}
+
+.image-header h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+h1, h2, p {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.highlighted-header {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.highlighted-subheader {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 26px;
+}
+
+.quiz-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  width: 400px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #f162ba;
+  color: white;
+  font-size: 16px;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.correct {
+  background-color: #f162ba;
+  color: #fff;
+}
+
+.wrong {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+.progress-bar {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 10px;
+  margin-bottom: 20px;
+}
+
+.progress {
+  background-color: #f162ba;
+  height: 100%;
+  width: 0%;
+  transition: width 0.3s;
+}
